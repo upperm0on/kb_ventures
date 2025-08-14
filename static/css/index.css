@@ -794,9 +794,6 @@ main {
     text-transform: capitalize;
 }
 
-#services .service-popup .popup-content .flex-content .services_locations {
-}
-
 #services .service-popup .popup-content .flex-content .services_locations span {
     text-align: center;
     font-family: var(--thirty-font);
