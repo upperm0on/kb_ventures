@@ -1,0 +1,76 @@
+@media screen and (max-width: 359px) {
+  :root {
+    font-size: 12px; /* smaller base for all rem values */
+  }
+  
+  #hero {
+    padding: 20px 10px;
+    height: auto; /* let content decide height */
+  }
+
+  #hero .intro {
+    margin-top: 100px; /* less empty space */
+    grid-template-rows: auto auto;
+  }
+
+  #hero .intro .intro-sub-title {
+    margin-top: 50px;
+    font-size: 1rem;
+  }
+
+  #hero .intro .intro-title .mobile_span {
+    font-size: 1.2rem;
+    padding: 10px;
+    line-height: 20px;
+  }
+
+  #hero .intro .intro-title .mobile_span .inner_mobile_spans {
+    font-size: 1.1em;
+  }
+
+  #hero .intro .intro-button {
+    width: 100%;
+    font-size: 0.8rem;
+    margin: 20px auto;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  #about,
+  #services .services-list .service-item,
+  #contact {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #services .services-list .service-item {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  #services .services-list .service-item .service-description {
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+  
+  #team-members .staff-members span {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  footer .footer-content .footer-text {
+    font-size: 0.85rem;
+  }
+    #about .about .about-business .about-description,
+  #about .about .about-personal .grided-content .about-description {
+    font-size: 1rem;
+  }
+
+    #about .about .about-personal .grided-content .about-description {
+        margin-left: 400px;
+    }
+  
+    #team-members .staff-members {
+    transform: scale(.8);
+  }
+  
+}

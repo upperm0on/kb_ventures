@@ -121,7 +121,7 @@
   }
 
   #hero .intro .intro-title .mobile_span .inner_mobile_spans {
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 500;
   }
 
@@ -170,6 +170,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transform: scale(.8);
   }
 
   #team-members .staff-members span {

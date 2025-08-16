@@ -785,13 +785,10 @@ main {
     grid-template-columns: 1fr 1fr;
 }
 
-#services .service-popup .popup-content .flex-content .estate_services {
-    list-style: none;
-}
-
 #services .service-popup .popup-content .flex-content .estate_services .estate_service-item {
     font-family: var(--sixty-font);
     text-transform: capitalize;
+    list-style: disc;
 }
 
 #services .service-popup .popup-content .flex-content .services_locations span {
