@@ -165,6 +165,10 @@ nav .nav-content .list-inline .list-inline-item .plane img {
     transform: translate(-50%, -50%);
 }
 
+.mobile_logo {
+    display: none;
+}
+
 /* END OF NAV */
 
 /* ****************************************************** */
@@ -467,6 +471,12 @@ main {
 #about .about .about-personal .img-container img{
     height: 100%;
     width: 100%;
+}
+
+.title {
+    font-size: 1rem;
+    text-align: left;
+    letter-spacing: 2px;
 }
 
 #about .about .about-personal {
