@@ -284,7 +284,8 @@ main {
     position: absolute;
     overflow: hidden;
     top: -50%;
-    left: 15%;
+    left: 50%;
+    transform: translateX(-50%);
     backdrop-filter: blur(5px);
 }
 
